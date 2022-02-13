@@ -63,7 +63,7 @@ class bibliografia extends React.Component {
             <Col lg={4} md={6}>
               {/*<Especies cardData={this.state.selectedItem} />*/}
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="content_short" src={this.state.selectedItem.cover} />
+                <Card.Img variant="top" src={this.state.selectedItem.cover} />
                 <Card.Body>
                   <Card.Title>{this.state.selectedItem.id}</Card.Title>
                   <Card.Text>
