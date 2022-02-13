@@ -7,6 +7,7 @@ import Crypto from '../components/Crypto';
 import Ejercicio1 from '../components/Ejercicio1';
 import Ejercicio2 from '../components/Ejercicio2';
 import Ejercicio3 from '../components/Ejercicio3';
+import bibliografia from '../components/bibliografia';
 export const MenuItems = [
 
   {
@@ -29,23 +30,19 @@ export const MenuItems = [
     component: Ejercicio3,
   },
   {
-    id: 1,
+    id: 4,
     path: '/Ejercicio1',
     title: 'ejercicio1',
     component: Ejercicio1,
   },
   {
-    id: 5,
-    path: '/ghibli',
-    title: 'Películas Ghibli',
-    component: PelisGhibli,
+    id: 4,
+    path: '/Bibliografia',
+    title: 'bibliografia',
+    component: bibliografia,
   },
-  {
-    id: 6,
-    path: '/especies',
-    title: 'Especies',
-    component: Especies,
-  },
+  
+  
   {
     id: 7,
     path: '/crypto',
