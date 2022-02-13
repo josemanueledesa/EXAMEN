@@ -14,7 +14,7 @@ class BootstrapHeader extends React.Component {
     return (
       <Navbar bg="light" expand={false}>
       <Container fluid>
-        <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+        <Navbar.Brand href="#">EXAMEN DI</Navbar.Brand>
         <img
               className="logo-image"
               src="https://eu01.edcwb.com/buscador/img/centros/logogrande/7348-a9c730d6b2b644f5b9910364ba6af277.jpg"

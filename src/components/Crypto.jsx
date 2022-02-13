@@ -38,6 +38,8 @@ class Crypto extends React.Component {
                     <th>Crypto</th>
                     <th>Precio</th>
                     <th>Volumen</th>
+                    <th>time</th>
+                    
                   </tr>
                 </thead>
                 <tbody>
@@ -51,6 +53,7 @@ class Crypto extends React.Component {
                         <td>{item.base}</td>
                         <td>{item.price}</td>
                         <td>{item.volume}</td>
+                        <td>{item.time}</td>
                       </tr>
                     );
                   })}
@@ -69,6 +72,9 @@ class Crypto extends React.Component {
                     Precio: {this.state.selectedItem.price}
                     <p />
                    Volumen: {this.state.selectedItem.volume}
+                   <p />
+                   Tiempo: {this.state.selectedItem.time}
+                    
                   </Card.Text>
                 </Card.Body>
               </Card>

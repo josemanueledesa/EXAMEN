@@ -1,33 +1,38 @@
 import  Home  from '../components/Home';
 import { PaginaListas } from '../components/PaginaListas';
-
 import Series from '../components/Series';
 import PelisGhibli from '../components/PelisGhibli';
 import Especies from '../components/Especies';
 import Crypto from '../components/Crypto';
-import App from '../components/App';
-
+import Ejercicio1 from '../components/Ejercicio1';
+import Ejercicio2 from '../components/Ejercicio2';
+import Ejercicio3 from '../components/Ejercicio3';
 export const MenuItems = [
 
   {
     id: 1,
-    path: '/Login',
-    title: 'Login',
-    component: App,
+    path: '/Ejercicio1',
+    title: 'ejercicio1',
+    component: Ejercicio1,
   },
  
   {
     id: 2,
-    path: '/listas',
-    title: 'Listas de tareas',
-    component: PaginaListas,
+    path: '/Ejercicio2',
+    title: ' ejercicio2 ',
+    component: Ejercicio2,
   },
-  
   {
-    id: 4,
-    path: '/series',
-    title: 'Series',
-    component: Series,
+    id: 3,
+    path: '/Ejercicio3',
+    title: ' ejercicio3 ',
+    component: Ejercicio3,
+  },
+  {
+    id: 1,
+    path: '/Ejercicio1',
+    title: 'ejercicio1',
+    component: Ejercicio1,
   },
   {
     id: 5,
